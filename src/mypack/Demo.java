@@ -24,8 +24,8 @@ public class Demo {
 		
 		Optional<Integer> secondMax = number.stream().sorted(Comparator.reverseOrder()).skip(1).findFirst();
 		
-	//	System.out.println("secondMax ="+secondMax);
-	//	System.out.println("secondMin ="+secondMin);
+		System.out.println("secondMax ="+secondMax);
+		System.out.println("secondMin ="+secondMin);
 		
 		
 		List<String> words = Arrays.asList("Oracle", "Java", "Magazine");
